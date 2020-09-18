@@ -1,0 +1,41 @@
+*{
+    margin-top: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://media.giphy.com/media/xUA7b4arnbo3THfzi0/giphy.gif");
+    /* width: 100vh;
+    height: 100vh; */
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+h1{
+    color:#e4355e;
+    font-size: larger;
+}
+.header{ 
+    margin-top: 500px;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.block {
+    background-color:rebeccapurple;
+    margin: auto;
+    height: 300px;
+    width: 800px; 
+     border-radius: 500px;
+    
+}
+.button{
+    margin: auto;
+    padding: 50px;
+    margin-right:120px ;
+    margin-left: 120px;
+}
+
