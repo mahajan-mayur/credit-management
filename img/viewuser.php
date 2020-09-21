@@ -8,7 +8,7 @@ $result=mysqli_query($con,$q);
 //$var=$_POST['name'];
 
 //echo $_SESSION['name'];
- ?> 
+?>
 
 
 <html>
@@ -17,22 +17,22 @@ $result=mysqli_query($con,$q);
    viewUser
     </title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     </head>
     <body>
     <div class="view">
         <h1>Choose name for credit transfer</h1>
-        <form action="transfer.php" method="post" style="position: relative; width: 500px; margin:auto; ">
-       <table class="table table-dark" >
+        <form action="transfer.php" method="post" class="my" style="position: relative; margin: auto; height: 300px;width: 800px; ">
+        <table class="table table-dark" >
            <th><h2>Name</h2></th>
            <?php  
      while($row = $result->fetch_assoc()) { ?>
 
         
    <tr>
-       <td > <input type="radio" name="transfer" value="<?php echo $row["name"]; ?>"><?php echo $row["name"]; ?></td>
+       <td > <input type="radio" name="transfer" value=      "<?php echo $row[" name"]; ?>"> <?php echo $row["name"]; ?></td>
       
    </tr>
 <?php }
@@ -53,6 +53,5 @@ $result=mysqli_query($con,$q);
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script>
     </body>
 </html>
