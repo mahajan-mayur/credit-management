@@ -1,4 +1,4 @@
-# The Sparks Foundation - Machine Learning Tasks
+# The Sparks Foundation - Credit-Management Website
 
 This repository consist of the tasks given during my internship at The Sparks Foundation.
 
@@ -10,14 +10,14 @@ This repository consist of the tasks given during my internship at The Sparks Fo
 
 Their Vision Statement : A world of enabled and connected little minds, building future. Our Mission Statement To inspire students, help them innovate and let them integrate to build the next generation humankind.
 
-# TASKS
 
 ## LinkedIn Profile :- https://www.linkedin.com/in/mayur-mahajan-44b979175
 
-## CreditManagement-Website
+# CreditManagement-Website Link :- https://credit-management-web.000webhostapp.com/
 
-        Video Link:- https://www.youtube.com/watch?v=4Vvt2tyQM_8
-        
+# Video Link:- https://www.youtube.com/watch?v=4Vvt2tyQM_8
+
+
+
 # Acknowledgments
-
 * Special Thanks to **The Sparks Foundation** for this Wonderful Internship Experience and Inspiration to do more.
